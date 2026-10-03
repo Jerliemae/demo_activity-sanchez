@@ -1,1 +1,7 @@
-{"buildCommand":"pip install -r requirements.txt","installCommand":"pip install -r requirements.txt","routes":[{"src":"/(.*)","dest":"/main.py"}]}
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "installCommand": "pip install -r requirements.txt",
+  "routes": [
+    { "src": "/(.*)", "dest": "/main.py" }
+  ]
+}
